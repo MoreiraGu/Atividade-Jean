@@ -1,0 +1,129 @@
+* {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+ }
+
+.linha{
+     background-color: rgb(255, 255, 255);
+     margin: 5px 0;
+     height: 3px;
+     border: none;
+
+}
+body{
+     background: linear-gradient(to right, rgb(100, 150, 180), rgb(70, 100, 130));
+     margin: 0px 1%;
+}
+
+
+nav ul{
+ display: flex;
+ justify-content: center;
+ gap: 20px;
+}
+
+nav ul li{
+ display: flex;
+ background-color: rgb(204, 204, 204);
+ border-radius: 20px;
+ padding: 10px 15px;
+ transition: background-color 0.3s ease;
+}
+
+nav ul li a{
+     text-decoration: none;
+     color: rgb(0, 0, 0);
+}
+
+nav ul li:hover{
+   background-color: rgb(255, 255, 255);
+   }
+
+nav ul li a:hover{
+     color: rgb(0, 0, 0);
+     }
+
+
+.imga{
+     margin: 30px;
+}
+
+ul {
+     margin-left: 50px;
+     margin-top: 15px;
+}
+
+.text{
+     margin-left: 10px;
+}
+
+.sobre{
+     text-align: auto;
+     margin:10px 10px;
+     margin-right: 50%;
+}
+
+footer{
+
+     text-align: center;
+     background-color: rgb(255, 255, 255);
+     padding: 10px;
+     width: 100%;
+     position: fixed;
+     bottom: 0;
+}
+
+.th1{
+    background-color: azure;
+    display: inline-block;
+    border-radius: 10px;
+    padding: 3px;
+    margin-top: 10px;
+
+}
+
+.h2home{
+     background-color: azure;
+     display: inline-block;
+     border-radius: 10px;
+     padding: 3px;
+     margin-top: 10px;
+}
+.tec{
+     display: flex;
+     justify-content: center;
+     margin-top: 20px;
+     height: 200px;
+}
+
+h3{
+     margin-right: 50%;
+}
+
+section {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     border: 1px solid;
+     width: 50%;
+     max-width: 400px;
+     margin: 60px auto;
+     padding: 15px; 
+     background-color: rgb(206, 206, 206);
+     border-radius: 10px; 
+ }
+
+ button{
+     padding: 5px;
+     border-radius: 20px;
+     background-color: rgb(155, 155, 155);
+     margin-top: 6px;
+     border: none;
+ }
+ button:hover{
+     background-color: antiquewhite;
+     border-radius: 20px;
+
+ }
+
