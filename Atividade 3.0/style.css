@@ -31,6 +31,9 @@ nav{
     display: flex;
     background-color: rgb(52, 52, 112);
     justify-content: space-between;
+    position: fixed;
+    width: 100%;
+    top: 0;
 }
 
 nav ul {
@@ -64,7 +67,7 @@ main{
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-top:50px ;
+    margin-top:110px ;
 
 }
 
