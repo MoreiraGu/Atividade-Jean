@@ -1,0 +1,159 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    font-family: Arial, sans-serif;
+    background-color: rgb(21, 21, 48);
+    margin: auto;
+}
+
+
+.g{
+    width: 50px;
+    margin: 20px;
+    border-radius: 10px;
+
+
+}
+
+nav{
+    font-size:20px ;
+    font: 600;
+    display: flex;
+    background-color: rgb(52, 52, 112);
+    justify-content: space-between;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    margin-right: 23px;
+}
+
+nav ul li {
+    margin: 0;
+}
+
+nav ul li a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+}
+
+nav ul li a:hover {
+    color: #555;
+}
+
+main{
+    max-width: 1500px;
+    margin:auto;
+}
+
+.eu{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top:50px ;
+
+}
+
+.apr{
+    max-width: 800px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+.apr h1,h2,h3{
+    margin-top: 10px;
+}
+
+.apr h1{
+    color: rgb(198, 203, 240);
+    font-size: 50px;
+}
+.apr h2{
+    color: rgb(198, 203, 225);
+    font-size: 30px;
+}
+.apr h3{
+    color: rgb(180, 180, 180);
+    font-size: 25px;
+}
+
+.foto{
+   height: 250px;
+   border-radius: 10px;
+}
+
+.sobremim{
+    color: rgb(180, 180, 180);
+    font-size: 19px;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.sobremim h1{
+   font-size: 40px !important;
+   color: rgb(198, 203, 240);
+   margin-top: 30px;
+}
+
+.sobremim h2{
+    color:rgb(198, 203, 225); 
+    font-size: 30px;
+    margin-top: 40px;
+
+}
+
+#ldt{
+    display: flex;
+    justify-content:space-between ;
+ 
+}
+
+
+.linux{
+    width: 600px;
+}
+
+.contatos{
+    display: flex;
+    margin: auto;
+    width: 100%;
+    justify-content: center;
+    gap: 30px;
+    padding: 20px;
+    background-color: rgb(179, 179, 179);
+}
+
+.contatos img{
+    height: 40px;
+    
+}
+.contatos img:hover{
+    height: 42px;
+    background-color: rgb(211, 211, 211);
+    padding: 3px;
+}
+
+.link {
+    color: antiquewhite;
+    text-decoration: none;
+}
+.link:hover {
+    color: rgb(207, 207, 207);
+}
+
+.fotos{
+    width: 500px;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
